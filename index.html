@@ -217,5 +217,27 @@
 </form>
 <br><br>
 <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+
+<br><br>
+<form>
+    <fieldset disabled>
+        <div class="form-group">
+            <label for="DisabledTextInput">Disabled input</label>
+            <input type="text" id="DisableTextInput" class="form-control" placeholder="DisableInput">
+        </div>
+        <div class="form-group">
+            <label for="disabledSelect">Disabled select menu</label>
+            <select id="disabledSelect" class="form-control">
+                <option>Disabled select</option>
+            </select>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Can't check this
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </fieldset>
+</form>
 </body>
 </html>
